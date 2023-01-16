@@ -1,0 +1,295 @@
+.page {
+  max-width: 1280px;
+  font-family: Inter, Arial, sans-serif;
+  background: #2a2c2f;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.header {
+  padding: 28px 48px 56px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+.header__lang-choice {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 18px 0 6px;
+  display: flex;
+  gap: 18px;
+  list-style: none;
+}
+
+.header__lang-link {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__lang-link_en {
+  text-decoration-line: none;
+}
+
+.section-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 148px;
+  padding-right: 148px;
+  box-sizing: border-box;
+}
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0 148px 0;
+}
+
+.lead__title {
+  max-width: 720px;
+  margin: 0;
+  padding: 0 0 32px 0;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.lead__subtitle {
+  margin: 0;
+  padding: 0 0 64px 0;
+  max-width: 640px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.lead__image {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 984px;
+}
+
+.lead__caption {
+  align-self: flex-start;
+  padding-top: 8px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.section-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 148px;
+  padding-right: 148px;
+  box-sizing: border-box;
+}
+
+.intro {
+  max-width: 690px;
+  box-sizing: border-box;
+}
+
+.intro__title {
+  padding: 92px 0 40px;
+  margin: 0;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.intro__text {
+  padding: 0 0 33px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.intro__list {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 92px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.photo-grid {
+  margin: 0;
+  padding: 0 48px 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+}
+
+.photo-grid__item {
+  width: 100%;
+  display: block;
+}
+
+.places {
+  margin: 0;
+  padding: 92px 148px;
+}
+
+.place {
+  padding: 0 0 80px 0;
+  display: grid;
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-areas:
+    "title link"
+    "image text";
+    grid-template-columns: 460px 1fr;
+}
+
+.place:last-of-type {
+  padding: 0;
+}
+
+
+.place__title {
+  grid-area: title;
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  padding: 0;
+
+}
+
+.place__image {
+  grid-area: image;
+  width: 100%;
+
+  display: block;
+}
+
+.place__website {
+  grid-area: link;
+  margin: 0;
+  padding: 0;
+  align-self: end;
+}
+
+.place__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.place__url-heading {
+  margin: 0;
+  padding: 0 0 12px 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+}
+
+.place__link {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration-line: underline;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
+.place__paragraph {
+  margin: 0;
+  padding: 0 0 26px 0;
+  grid-area: text;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.place__paragraph:last-of-type {
+  padding: 0;
+}
+
+.cover {
+  box-sizing: border-box;
+  min-height: 740px;
+  position: relative;
+  margin: 0 48px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  background: #2a2c2f;
+  opacity: 0.3;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}
+
+.cover__title {
+  max-width: 560px;
+  margin: 0;
+  padding: 245px 0 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  position: relative;
+}
+
+.cover__subtitle {
+  max-width: 360px;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  position: relative;
+}
