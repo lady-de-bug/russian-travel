@@ -10,18 +10,16 @@
     <title>Путешествие по России</title>
   </head>
   <body class="page">
-     <header class="header">
+    <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип" />
-      <nav>
-        <ul class="header__lang-choice">
-          <li>
-            <a class="header__lang-link header__lang-link_ru" href="#">Ru</a>
-          </li>
-          <li>
-            <a class="header__lang-link header__lang-link_en" href="#">En</a>
-          </li>
-        </ul>
-      </nav>
+      <ul class="header__lang-choice">
+        <li>
+          <a class="header__lang-link header__lang-link_ru" href="#">Ru</a>
+        </li>
+        <li>
+          <a class="header__lang-link header__lang-link_en" href="#">En</a>
+        </li>
+      </ul>
     </header>
     <main class="main">
       <section class="lead">
@@ -67,7 +65,7 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section aria-label="Фото">
         <ul class="photo-grid">
           <li>
             <img
@@ -155,7 +153,7 @@
           </li>
         </ul>
       </section>
-      <section class="places">
+      <section aria-label="Места" class="places">
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <nav class="place__website">
@@ -354,8 +352,8 @@
           </div>
         </article>
       </section>
-       <section>
-         <a
+      <section>
+        <a
           class="cover"
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
           target="_blank"
@@ -368,7 +366,7 @@
         </a>
       </section>
     </main>
-     <footer class="footer">
+    <footer class="footer">
       <nav>
         <ul class="footer__links">
           <li>

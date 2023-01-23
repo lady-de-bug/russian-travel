@@ -4,6 +4,7 @@
     url(./fonts/Inter-Regular.otf) format("otf"),
     url(./fonts/Inter-Regular.ttf) format("truetype");
   font-family: Inter;
+  font-style: normal;
   font-weight: 400;
 }
 @font-face {
@@ -12,6 +13,7 @@
     url(./fonts/Inter-Bold.otf) format("otf"),
     url(./fonts/Inter-Bold.ttf) format("truetype");
   font-family: Inter;
+  font-style: normal;
   font-weight: 700;
 }
 @font-face {
@@ -20,5 +22,6 @@
     url(./fonts/Inter-Black.otf) format("otf"),
     url(./fonts/Inter-Black.ttf) format("truetype");
   font-family: Inter;
+  font-style: normal;
   font-weight: 900;
 }
