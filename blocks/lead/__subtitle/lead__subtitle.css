@@ -10,7 +10,7 @@
 
 @media (max-width: 1100px) {
   .lead__subtitle {
-    margin: 0 0 56px 0;
+    margin-bottom: 56px;
   }
 }
 
@@ -32,6 +32,6 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
-    margin: 0 0 40px 0;
+    margin-bottom: 40px;
   }
 }

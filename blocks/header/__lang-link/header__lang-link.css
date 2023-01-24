@@ -3,6 +3,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+  text-decoration-line: none;
 }
 
 @media (max-width: 410px) {
@@ -11,3 +12,8 @@
     line-height: 20px;
   }
 }
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+

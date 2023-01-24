@@ -38,14 +38,7 @@
 
 @media (max-width: 410px) {
   .place {
-    grid-template-areas:
-      "title"
-      "link"
-      "image"
-      "text";
-    grid-template-columns: auto;
-    gap: 32px;
-    margin: 0 0 50px 0;
+    margin-bottom: 50px;
   }
 }
 
