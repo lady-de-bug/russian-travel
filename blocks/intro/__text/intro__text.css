@@ -7,6 +7,12 @@
   line-height: 26px;
 }
 
+@media (max-width: 870px) {
+  .intro__text {
+    max-width: none;
+  }
+}
+
 @media (max-width: 410px) {
   .intro__text {
     margin-bottom: 34px;
